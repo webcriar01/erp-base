@@ -19,9 +19,11 @@ export default function Sidebar() {
   </li>
 </Link>
   
-          <li className="p-3 rounded-lg hover:bg-slate-800 cursor-pointer transition">
-            Produtos
-          </li>
+          <Link href="/produtos">
+            <li className="p-3 rounded-lg hover:bg-slate-800 cursor-pointer transition">
+              Produtos
+            </li>
+          </Link>
   
           <li className="p-3 rounded-lg hover:bg-slate-800 cursor-pointer transition">
             Pedidos
